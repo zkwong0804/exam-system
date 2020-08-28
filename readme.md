@@ -1,10 +1,14 @@
-TARUC DIA FINAL YEAR PROJECT
+##TARUC DIA FINAL YEAR PROJECT
+
 Author: WONG ZHEN KAI
+
 Year: 2015
+
 Language: Java
+
 Theme: Examination System
 
-How to setup this project?
+**How to setup this project?**
 
 1. Install and set up derby client [https://www.vogella.com/tutorials/ApacheDerby/article.html]
 2. Add maven dependencies (derby and derbyclient)
@@ -13,10 +17,10 @@ How to setup this project?
 5. Execute the program through IDE
 6. Some default user information can be found in IDE output
 
-!!ATTENTION!!
+**!!ATTENTION!!**
 
 Please noted that this project is only for academic purpose and it is not either maintained or updated,
 therefore it might contains a lot of bugs which might be unsolvable due to the deprecated library and etc.
 You may have use it as references, but it should not be applied in any organisational work flow.
 
-!!ATTENTION!!
+**!!ATTENTION!!**
