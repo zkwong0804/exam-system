@@ -1,0 +1,16 @@
+Welcome to the starter guide for admin!
+The content below will guide you how those function work and how to operate those function correctly before you get start on this system.
+
+1.Examiner menu
+- In this menu, you are allowed to manage the examiner detail like create record, update, or remove it.
+a. Create record: This button will lead you into the create examiner record page, you could create an examiner record here. Only name field accept alphabet character, 
+   the other field won't acceipt the aplhabet character and most of them have the number limits, you are not able to type in more character if you reach the limits, 
+   and no alphabetical character will be accept in the field if you try to type the aphlabetical character into the field which will not accept it.
+b. Search record: You can find the record that you are looking for easily in this page, click on the "show advanced options" button to show more options to find your 
+   record. Once you find the record, you are able to enter the record to modify it.
+c. Show examiner: You could decde to update the record or remove it. Update record will lead you to another window, update record will work as the create record but
+   only limited field could be updated. Remove record will show a confirmation message to you, record will be removed once you confirm the message.
+
+
+2.Staff menu
+- This menu will have the same function as the Examiner menu but modify different module, for Staff menu you are able to modify STAFF record only.

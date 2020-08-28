@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1594ed00-5de3-4b01-b63a-4812b5f0cee0">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#8FAFCC">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#CFDBE6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="df0a5676-98d1-4dc5-8a72-3e38e0dd98d4"/>
+	<queryString language="SQL">
+		<![CDATA[select * from EXAMINER]]>
+	</queryString>
+	<field name="examinerID" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="examinerName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="examinerAge" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="examinerContactNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="examinerIC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="examinerIntakeYear" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="examinerCourse" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="22" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="196" height="20" uuid="a667d0b7-65ca-4b32-9fed-c9478cbb4bab"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tunku Abdul Rahman University college]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="0" width="145" height="20" uuid="1ec7d728-b9d0-4620-a49a-a1cdeaae3bb6"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Examination System]]></text>
+			</staticText>
+			<textField pattern="dd-MMM-yy">
+				<reportElement x="247" y="0" width="100" height="20" uuid="becefc87-1aae-4512-afe9-68d89cb943a3"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="127" splitType="Stretch">
+			<staticText>
+				<reportElement x="130" y="36" width="305" height="54" backcolor="#FFFFFF" uuid="48bf0b34-e90d-4f0b-b9bf-22055a36f740"/>
+				<textElement>
+					<font fontName="Tahoma" size="36" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Examiner report]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="94" height="20" uuid="abda7fc7-67ff-45fb-ba3d-163d4c51479c"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Examiner ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="94" y="0" width="113" height="20" uuid="737afd7f-29e1-4d22-af15-79871eb2a3e2"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="207" y="0" width="40" height="20" uuid="2b454ef5-0de3-4407-b501-819917872175"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="247" y="0" width="83" height="20" uuid="36fee0f6-517f-43bc-9c3a-84f4dee5d99e"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Contact]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="491" y="0" width="64" height="20" uuid="4952a5ad-7d3a-4323-ac86-77775a8b4eff"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Intake year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="0" width="161" height="20" uuid="5c6e3416-2370-4e7a-bb7c-2b5dd990d9d1"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Course]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="94" height="20" uuid="914e0feb-6b6a-47ed-a43d-ce8e9b4dc044"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{examinerID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="94" y="0" width="113" height="20" uuid="c09d4ca1-b91e-4ee9-9804-79a4c9dbaf4b"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{examinerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="207" y="0" width="40" height="20" uuid="7c8e08d9-906d-45f1-931b-aec09743b5e5"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{examinerAge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="247" y="0" width="83" height="20" uuid="12c54cff-02a0-432b-a584-095c7534c283"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{examinerContactNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="0" width="161" height="20" uuid="078e1f4a-e476-49a7-8088-c3f3e552585c"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{examinerCourse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="491" y="0" width="64" height="20" uuid="d593cf21-68b1-44b2-b66a-ceb907ab394d"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineStyle="Solid" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{examinerIntakeYear}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="133" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="220" height="92" uuid="742c0483-6c29-490d-be85-b51d7ca5a5c9"/>
+				<imageExpression><![CDATA["C:\\Users\\tommy\\Desktop\\system picture\\logo.jpg"]]></imageExpression>
+			</image>
+			<break>
+				<reportElement x="0" y="72" width="100" height="1" uuid="7d08ca31-70d3-40ac-a767-d83cb2def3fb"/>
+			</break>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="533d27e0-9d2a-4f24-a2c6-3d561cd856b0"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,52 @@
+Welcome to the starter guide for staff!
+The content below will guide you how those function work and how to operate those function correctly before you get start on this system.
+
+1.Examiner menu
+- In this menu, you are allowed to manage the examiner detail like create record, update, or remove it.
+a. Create record: This button will lead you into the create examiner record page, you could create an examiner record here. Only name field accept alphabet character, 
+   the other field won't acceipt the aplhabet character and most of them have the number limits, you are not able to type in more character if you reach the limits, 
+   and no alphabetical character will be accept in the field if you try to type the aphlabetical character into the field which will not accept it.
+b. Search record: You can find the record that you are looking for easily in this page, click on the "show advanced options" button to show more options to find your 
+   record. Once you find the record, you are able to enter the record to modify it.
+c. Show examiner: You could decide to update the record or remove it. Update record will lead you to another window, update record will work as the create record but
+   only limited field could be updated. Remove record will show a confirmation message to you, record will be removed once you confirm the message. You also can help 
+   the examiner to top up their account balance for payment purpose in this window. Some of the examiner might need renew their student ID and you can help them to do
+   that in this window
+d. Examiner result: You can modify the examiner result here, you are required to find the examiner that you want to create or update result for him, choose the option
+   that you want to do after you select a record, the options will set at the left hand side of "Enter" button. The refresh button will work if you can't find the 
+   record you want.
+e. Create examiner result: Select the subject and type in the mark of the subject in the textfield. Always remember to set it to " " if you are not using all of the 
+   options. Make sure all things is correct before you press the create button. You can reset all field in one button which are the reset button.
+f. Show examiner result: You will be able to show the examiner result once you create result to the examiner. In this page, you will able to see each semester result
+   by selecting the semeste at the left-bottom area, you could decide to update and remove the result if you wishes. This page will also show the CGPA and GPA of the 
+   semester you have selected
+
+
+2.Staff menu
+- This menu will show your detail only, you can update the information if you want to.
+
+
+
+3.Course menu
+- This menu will allow you to modify course module and subject module.
+a. Create course: In this page, you could create a course if you want, simply type in the course name, ID, and description to create the record, if Course ID field, 
+   only alphabet character will be accepted. Click the reset button if you want to reset all field.
+b. Search course: Work as the search examiner, but this time is for the course and no advanced options is provided. Select the record and enter for more detail.
+c. Show course: The selected course's detail will be showed here. As usual, you are able to decide wheter want to remove this record or update it or do nothing.
+d. Create subject: Work as the create course.
+e. Search subject: Work as the search course
+
+
+4.Timetable menu
+-This menu will allow you to modify course timetable.
+a. Create timetable: Before you get started in this function, you must type in the timetabl name and select the course. Click create to proceed to the next step.
+b. Edit timetable: You are able to modify the timetable here by clicking the button and choose the subject. Choose the period and subject carefully before you
+   click create button.
+c. Search timetable: You can find the course timetable here by selecting the course ID. You can choose to remove timetable or update. Choose update will lead you
+   you to the edit timetable window.
+
+
+
+5. Report menu:
+-Staff can create 3 different report at this menu, the payment, examiner, and subject, each report will show the information of the specif modules and reporting
+ the useful message for staff. Generate the report by clicking the menu item.

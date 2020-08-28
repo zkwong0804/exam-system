@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4d12ab2c-fd86-455c-8a72-d9e9ce824d3a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from "PAYMENT REPORT"]]>
+	</queryString>
+	<field name="paymentType" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="totalPeople" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="totalTransaction" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="195" height="20" uuid="c4724e61-fc8f-4b8f-93c3-8e34a515fa10"/>
+				<text><![CDATA[Tunku Abdul Rahman University college]]></text>
+			</staticText>
+			<textField pattern="dd-MMM-yy">
+				<reportElement x="251" y="0" width="100" height="20" uuid="902e70bb-e5bb-47b7-b01f-f4d0b0424ab3"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="414" y="0" width="141" height="20" uuid="f7877e07-a40b-4e63-a848-60c3c227d5b4"/>
+				<text><![CDATA[Student Examination System]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="156" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="156" uuid="babf5267-620c-49d1-a8b8-99b4cce1137b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="36" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Payment Report]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="42" splitType="Stretch">
+			<staticText>
+				<reportElement x="83" y="0" width="175" height="42" uuid="779c8a90-e475-48d4-90f5-d628b3f7fcff"/>
+				<box>
+					<pen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Payment Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="258" y="0" width="100" height="42" uuid="26594de5-683d-4115-bc5a-b3b3f0e16ebf"/>
+				<box>
+					<pen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total people]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="358" y="0" width="100" height="42" uuid="05571439-47e2-406f-a5de-2ee57e6e1716"/>
+				<box>
+					<pen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Transaction]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement x="83" y="0" width="175" height="20" uuid="1181f3e2-f2f0-4b89-bfc0-4ddac42b80dc"/>
+				<box>
+					<pen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{paymentType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="258" y="0" width="100" height="20" uuid="2569075e-faba-4fa1-9082-2d9c5d0e081a"/>
+				<box>
+					<pen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{totalPeople}]]></textFieldExpression>
+			</textField>
+			<textField pattern="¤ #,##0.00">
+				<reportElement x="358" y="0" width="100" height="20" uuid="d6e9093a-2bf5-40b2-83c6-fb443ad7e2d2"/>
+				<box>
+					<pen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<topPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<leftPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<bottomPen lineWidth="1.75" lineColor="#CCCCCC"/>
+					<rightPen lineWidth="1.75" lineColor="#CCCCCC"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{totalTransaction}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="92" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="220" height="92" uuid="22c97173-83a4-4bdb-8919-27480c84c4a0"/>
+				<imageExpression><![CDATA["C:\\Users\\tommy\\Desktop\\system picture\\logo.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="43a98859-8f90-4960-99c0-b81896c27884"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

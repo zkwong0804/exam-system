@@ -1,0 +1,30 @@
+Welcome to the starter guide for examiner!
+The content below will guide you how those function work and how to operate those function correctly before you get start on this system.
+
+1.Examiner menu
+- In this menu, you are allowed to view your information and update them if you want.
+
+
+2.Timetable menu
+-This menu will allow you to view your course's timetable.
+
+
+
+3.Examination menu
+- You are able to register your final examination and view your overall result here.
+a. Register exam: This page will help you to register your final examination, kindly choose the subject that you want to take in this semester. You could multiselect
+   the subject table if you want to register more than one subject in one time. Click the confirm button to confirm you want to take the subject you selected. If the 
+   subject you want to register in this semester didn't show in  the table, you should try the refresh button which will help you to read the lastest information from
+   the database and draw it on the table again. Remember you can only register 5 subject in one semester.
+
+b. View result: You can view your overall result here! Choose the semester you want to view at left-bottom area.
+
+
+
+
+4.Payment menu
+- View all of your bills at here in one time.
+a. View your payment: You will see all of your payment at this page, show in the payment table. You can multiselect the column if you want to pay more than one bills.
+   After you confirm the payment that you want to pay have been selected, kindly click the "Make payment" button to proceed into payment process. Remember, your 
+   account balance must be enough to pay your bill or you will be required to go find the staff for top up your balance.
+
